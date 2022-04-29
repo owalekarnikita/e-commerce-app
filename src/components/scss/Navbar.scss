@@ -1,0 +1,14 @@
+.nav:hover {
+    border-bottom: blue 3px solid;
+}
+
+.main {
+    background-image: url('../images/bg.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hidden {
+    position: absolute;
+    z-index: 2;
+}
