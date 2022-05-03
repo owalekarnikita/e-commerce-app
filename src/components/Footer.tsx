@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='bg-blue-300'>
         <footer className='ml-10 mr-10'>
             <br />
-            <section className='grid grid-cols-10'>
+            <section className='grid md:grid-cols-10 sm:grid-cols-4'>
                 <div className='col-span-4 p-10'>
                     <img src={require('./images/logo2.png')} />
                     <p className='text-xs p-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam a praesentium voluptates at, quidem vero quos dignissimos eveniet accusantium non corporis architecto recusandae sit omnis asperiores distinctio.</p>
@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
             </section>
             
-            <section className='grid grid-cols-12'>
+            <section className='grid md:grid-cols-12 sm:grid-cols-3'>
                 <div className='col-span-3 p-10'>
                     <h2 className='text-xl nav'>Information</h2>
                     <br/>
@@ -76,11 +76,11 @@ const Footer = () => {
             </section>
             <hr />
             <br/>
-            <section className='grid grid-cols-12'>
+            <section className='grid md:grid-cols-12 sm:grid-cols-3'>
             <span className='flex col-span-3'></span>
             <span className='flex col-span-3'></span>
             <span className='flex col-span-3'></span>
-            <span className='flex col-span-3'>
+            <span className='flex col-span-3 place-content-center'>
                 <img src={require('./images/wsunion.png')} className="w-12 p-1" />
                 <img src={require('./images/card.png')} className="w-12 p-1" />
                 <img src={require('./images/paypal.png')} className="w-12 p-1" />

@@ -5,7 +5,7 @@ import { ShoesContext } from '../context/ShoesData';
 const Shoes = () => {
   const {shoeList} = useContext(ShoesContext);
   return (
-    <div className='grid grid-cols-12 gap-5 ml-10 mr-10'>
+    <div className='grid md:grid-cols-12 sm:grid-cols-3 gap-5 ml-10 mr-10'>
       {shoeList.map((shoe, index) => {
         return(
           <div className ='h-auto col-span-3 text-center border p-2' key={index}>

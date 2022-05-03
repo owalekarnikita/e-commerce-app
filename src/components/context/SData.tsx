@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import { ShoesContext, ShoesData } from './ShoesData';
 
 
-const SData = ({children})=> {
+const SData = ({children}:any)=> {
     const [list] =useState<ShoesData>({} as ShoesData)
     const [data] =useState<ShoesData[]>([
         {

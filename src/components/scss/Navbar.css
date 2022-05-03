@@ -12,5 +12,21 @@
 #hidden {
   position: absolute;
   z-index: 2;
+  display: none;
+}
+
+nav:hover ~ #hidden {
+  display: block;
+}
+
+#svg:hover ~ #ul {
+  display: block;
+}
+
+#btnav {
+  bottom: 0%;
+  width: 100%;
+  left: 0;
+  padding-left: 2%;
 }
 /*# sourceMappingURL=Navbar.css.map */
