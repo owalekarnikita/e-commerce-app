@@ -18,11 +18,10 @@ const BestSeller = () => {
                 <li className='p-1 pr-2 pl-2 nav'>Sunglasses</li>
             </ul>
             <div className=''>
-                <Shoes/>  <br/>
+                <Shoes/> <br/>
                 <div className='hidden' id='hide'>
                     <Shoes />
                 </div>
-                <br/>
                 <button className='text-sm font-bold underline' onClick={a}>Learn More </button>  
                 <br/> 
             </div>

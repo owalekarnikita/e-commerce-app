@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../scss/Navbar.css';
 
 const NavHover = () => {
@@ -25,7 +26,7 @@ const NavHover = () => {
             <li>Trainers</li>
         </ul>
         <ul className='mr-3 ml-2 p-1'>
-            <li>Coparate Shoes</li>
+            <li><NavLink to='./pages/Hotdeals'>Hot Deals</NavLink></li>
             <li>Sneakers</li>
             <li>Sandles</li>
             <li>Sport Shoes</li>
@@ -39,7 +40,7 @@ const NavHover = () => {
             <li>Trainers</li>
         </ul>
         <ul className='mr-3 ml-2 p-1'>
-            <li>Coparate Shoes</li>
+            <li>Hot Deals</li>
             <li>Sneakers</li>
             <li>Sandles</li>
             <li>Sport Shoes</li>

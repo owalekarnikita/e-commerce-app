@@ -46,9 +46,9 @@ const Navbar = () => {
                     <nav id='nav'>
                         <ul className='md:flex sm:grid hidden md:float-right place-content-center' id='ul'>
                             <li className='pl-5 pr-5 pt-2 font-bold ml-3 mr-3 nav'><NavLink to='/'>HOME</NavLink></li>
-                            <li className='pl-5 pr-5 pt-2 font-bold ml-3 mr-3 nav'><NavLink to='/'>BAGS</NavLink></li>
+                            <li className='pl-5 pr-5 pt-2 font-bold ml-3 mr-3 nav'><NavLink to='/pages/Shoes '>BAGS</NavLink></li>
                             <li className='pl-5 pr-5 pt-2 font-bold ml-3 mr-3 nav'><NavLink to='pages/Shoes'>SNEAKERS</NavLink></li>
-                            <li className='pl-5 pr-5 pt-2 font-bold ml-3 mr-3 nav'><NavLink to='/'>BELT</NavLink></li>
+                            <li className='pl-5 pr-5 pt-2 font-bold ml-3 mr-3 nav'><NavLink to='/pages/Hotdeals'>Hot-Deals</NavLink></li>
                             <li className='pl-5 pr-5 pt-2 font-bold ml-3 mr-3 nav'><NavLink to='Contact'>CONTACT</NavLink></li>
                         </ul>
                     </nav>

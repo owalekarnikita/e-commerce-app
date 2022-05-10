@@ -13,7 +13,8 @@ const Banner = () => {
                     <section className='col-span-1 mr-10'>
                             <img src={require('../images/st.png')} className='md:-mt-20 sm:mt-2'/>
                     </section>
-        </div>
+                    <br/>
+    </div>
   )
 }
 
